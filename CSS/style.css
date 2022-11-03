@@ -1,0 +1,742 @@
+/* line 1, ../Programacion/Send Bootstrap/SASS/style.scss */
+#NavSend {
+  font-family: 'Licorice', cursive;
+  font-size: 2rem;
+}
+
+/* line 7, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+/* line 15, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Home video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
+}
+
+/* line 26, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Textohome {
+  display: flex;
+  color: white;
+  background-color: rgba(17, 17, 255, 0.733);
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+/* line 37, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Textohome h1 {
+  font-family: 'Licorice', cursive;
+  font-size: 10rem;
+  margin-bottom: -60;
+}
+
+/* line 42, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Textohome p {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 50, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Funcion {
+  background: linear-gradient(10deg, #126ef8, #3427f3, #3333ff);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+
+/* line 59, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Funcion h2 {
+  font-size: 3rem;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  width: 100%;
+  margin-top: 0;
+  color: white;
+}
+
+/* line 68, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Funcion p {
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 73, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Funcion h3 {
+  font-family: 'Smooch', cursive;
+  font-size: 6rem;
+}
+
+/* line 76, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Funcion h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 82, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Funcion h3:hover {
+  font-size: 6.5rem;
+}
+
+/* line 86, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Funcion img {
+  width: 40%;
+}
+
+/* line 93, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Servicios {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(10deg, #02022c, #3427f3, #126ef8);
+}
+
+/* line 102, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Servicios h2 {
+  font-size: 2rem;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  width: 100%;
+  margin-top: 0;
+  color: white;
+}
+
+/* line 116, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Entrega {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 121, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Entrega button {
+  margin-top: 10px;
+}
+
+/* line 129, ../Programacion/Send Bootstrap/SASS/style.scss */
+#ServiciosMoto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+
+/* line 135, ../Programacion/Send Bootstrap/SASS/style.scss */
+#ServiciosMoto div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 138, ../Programacion/Send Bootstrap/SASS/style.scss */
+#ServiciosMoto div h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #e6ff01;
+  z-index: 1;
+}
+
+/* line 144, ../Programacion/Send Bootstrap/SASS/style.scss */
+#ServiciosMoto div h4 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: #e6ff01;
+}
+
+/* line 154, ../Programacion/Send Bootstrap/SASS/style.scss */
+#SeccionApp {
+  background: linear-gradient(10deg, #126ef8, #3427f3, #02022c);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 162, ../Programacion/Send Bootstrap/SASS/style.scss */
+#SeccionApp h2 {
+  margin-top: 100px;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 5rem;
+  line-height: 60px;
+}
+
+/* line 170, ../Programacion/Send Bootstrap/SASS/style.scss */
+#SeccionApp img {
+  width: 80%;
+}
+
+/* line 176, ../Programacion/Send Bootstrap/SASS/style.scss */
+#App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 181, ../Programacion/Send Bootstrap/SASS/style.scss */
+#App p {
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+/* line 190, ../Programacion/Send Bootstrap/SASS/style.scss */
+#App #SendApp {
+  width: 25%;
+  align-self: center;
+}
+
+/* line 195, ../Programacion/Send Bootstrap/SASS/style.scss */
+#App #imagenapp {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  align-self: center;
+  margin-left: 50px;
+}
+
+/* line 203, ../Programacion/Send Bootstrap/SASS/style.scss */
+#ImagenMoto {
+  width: 80%;
+  margin-top: 10px;
+}
+
+/* line 210, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(45deg, #e6e6f8, #3427f3, #ca30b5);
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiarcolor 10s ease-in-out infinite;
+  /*Animaciones H2 Nosotros */
+  /* ----------------------------------------------
+ * Generated by Animista on 2022-10-21 20:35:45
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+  /**
+ * ----------------------------------------
+ * animation text-pop-up-top
+ * ----------------------------------------
+ */
+}
+
+@keyframes cambiarcolor {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* line 228, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Nosotros h2 {
+  margin-top: 120px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.74);
+  font-weight: 600;
+}
+
+/* line 237, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Nosotros .text-pop-up-top {
+  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* line 287, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Nosotros h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+/* line 293, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Nosotros hr {
+  height: 4px;
+}
+
+/* line 298, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Nosotros img {
+  height: 50%;
+}
+
+/* line 302, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Nosotros svg {
+  padding: 10px;
+}
+
+/* line 306, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Nosotros #ContenedorBotones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*CODIGO SLIDER EMPRESAS*/
+/* line 316, ../Programacion/Send Bootstrap/SASS/style.scss */
+.slider {
+  width: 75vw;
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* line 324, ../Programacion/Send Bootstrap/SASS/style.scss */
+.slider .slide-track {
+  display: flex;
+  flex-direction: row !important;
+  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+  width: calc(200px * 14);
+}
+
+/* line 332, ../Programacion/Send Bootstrap/SASS/style.scss */
+.slider .slide {
+  width: 100px;
+}
+
+/* line 336, ../Programacion/Send Bootstrap/SASS/style.scss */
+.slider .slide img {
+  width: 50%;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 8));
+    transform: translateX(calc(-200px * 8));
+  }
+}
+
+/* line 352, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Contacto {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #e6e6f8, #3427f3, #ca30b5);
+}
+
+/* line 359, ../Programacion/Send Bootstrap/SASS/style.scss */
+#titulocontacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 363, ../Programacion/Send Bootstrap/SASS/style.scss */
+#titulocontacto h2 {
+  color: white;
+  background-color: black;
+  padding-bottom: 10px;
+  width: 50%;
+  z-index: 2;
+  margin-top: 20px;
+}
+
+/* line 375, ../Programacion/Send Bootstrap/SASS/style.scss */
+#cabeceracontacto {
+  margin-top: 10px;
+}
+
+/* line 377, ../Programacion/Send Bootstrap/SASS/style.scss */
+#cabeceracontacto h3 {
+  color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 384, ../Programacion/Send Bootstrap/SASS/style.scss */
+#cabeceracontacto img {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+}
+
+/* line 394, ../Programacion/Send Bootstrap/SASS/style.scss */
+#FormContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 80px;
+}
+
+/* line 404, ../Programacion/Send Bootstrap/SASS/style.scss */
+#FormContacto h4 {
+  padding-top: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* line 410, ../Programacion/Send Bootstrap/SASS/style.scss */
+#FormContacto label {
+  margin-top: 10px;
+  color: white;
+}
+
+/* line 416, ../Programacion/Send Bootstrap/SASS/style.scss */
+#FormContacto input {
+  width: 288px;
+}
+
+/* line 419, ../Programacion/Send Bootstrap/SASS/style.scss */
+#FormContacto textarea {
+  width: 288px;
+  height: 200px;
+}
+
+/* line 423, ../Programacion/Send Bootstrap/SASS/style.scss */
+#FormContacto select {
+  width: 288px;
+}
+
+/* line 429, ../Programacion/Send Bootstrap/SASS/style.scss */
+footer {
+  background-color: #222222;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+/* line 437, ../Programacion/Send Bootstrap/SASS/style.scss */
+#RRSS-Footer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 440, ../Programacion/Send Bootstrap/SASS/style.scss */
+#RRSS-Footer h3 {
+  color: white;
+  font-size: 1rem;
+}
+
+/* line 447, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Iconos-RRSS {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 450, ../Programacion/Send Bootstrap/SASS/style.scss */
+#Iconos-RRSS img {
+  width: 10%;
+}
+
+/* line 455, ../Programacion/Send Bootstrap/SASS/style.scss */
+#DatosEmpresa-Footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: white;
+}
+
+@media (min-width: 570px) {
+  /* line 464, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #textcenternosotros {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* line 469, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #textcenternosotros #Nosotros h5 {
+    margin-top: -150px;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  /* line 484, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros h2 {
+    margin-top: 150px;
+  }
+  /* line 487, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros h5 {
+    margin-top: 0;
+  }
+  /* line 490, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros #BotonNosotros {
+    width: 300px;
+  }
+  /* line 495, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros #ContenedorBotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+  }
+  /* line 502, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #textcenternosotros {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  /*   APP   */
+  /* line 508, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #App #SendApp {
+    width: 15%;
+    align-self: center;
+  }
+  /* line 513, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #SeccionApp {
+    justify-content: space-around;
+  }
+  /* line 516, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #SeccionApp img {
+    width: 60%;
+  }
+  /* line 519, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #SeccionApp h2 {
+    margin-top: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 5rem;
+    line-height: 70px;
+  }
+  /* line 530, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Entrega {
+    width: 500px !important;
+  }
+  /* line 536, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Servicios img {
+    width: 65%;
+  }
+  /* line 541, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Funcion img {
+    width: 40%;
+  }
+  /* line 544, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #ServiciosMoto {
+    margin-top: -40px;
+  }
+  /* line 548, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #titulocontacto h2 {
+    margin-top: 90px;
+  }
+  /* line 552, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #RRSS-Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  /* line 560, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Iconos-RRSS {
+    width: 30%;
+  }
+  /* line 564, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #DatosEmpresa-Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+  }
+  /* line 571, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #DatosEmpresa-Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+/*Intermedio Tablet*/
+@media (min-width: 900px) {
+  /* line 583, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Funcion img {
+    width: 30%;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 1025px) {
+  /* line 594, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros h2 {
+    margin-top: 150px;
+  }
+  /* line 599, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros #BotonNosotros {
+    width: 300px;
+  }
+  /* line 604, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros #ContenedorBotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  /* line 610, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros h5 {
+    margin-top: -20px;
+  }
+  /* line 615, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #nosotros-text {
+    margin-top: -50px;
+  }
+  /* line 619, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #textcenternosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /* line 624, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #textcenternosotros img {
+    width: 25%;
+    height: auto;
+  }
+  /* line 629, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #textcenternosotros div {
+    width: 50%;
+  }
+  /* line 635, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Funcion h2 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  /* line 640, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Funcion p {
+    font-size: 1rem;
+  }
+  /* line 643, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Funcion img {
+    width: 12%;
+  }
+  /* line 647, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #ServiciosMoto div h4 {
+    font-size: 2rem;
+  }
+  /* line 650, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #ServiciosMoto div h3 {
+    font-size: 2rem;
+  }
+  /* line 655, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #SeccionApp h2 {
+    font-size: 3rem;
+    line-height: 40px;
+  }
+  /* line 659, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #SeccionApp img {
+    width: 20%;
+  }
+  /* line 663, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #App #SendApp {
+    width: 4%;
+  }
+  /* line 666, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #imagenapp {
+    width: 20% !important;
+  }
+  /* line 671, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Contacto textarea {
+    height: 124px;
+  }
+  /* line 676, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #titulocontacto h2 {
+    margin-top: 90px;
+  }
+  /* line 680, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #RRSS-Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  /* line 688, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Iconos-RRSS {
+    width: 15%;
+  }
+  /* line 692, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #DatosEmpresa-Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+  }
+}
+
+/*Responsive mobile menos de 375px*/
+@media (max-width: 385px) {
+  /* line 705, ../Programacion/Send Bootstrap/SASS/style.scss */
+  #Nosotros #ContenedorBotones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
